@@ -3,56 +3,76 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Edward Island|Game Dev.</title>
+    <title>Enqi's Island|About Life</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="game_index.css" />
     <script src="index.js"></script>
 </head>
     <body>
+        <!--content on the lift, maximum 4, how the div working?-->
         <div class="left_container">
-            <div class="btn prof" onclick="showContent('professional')">
-                <h3>Professional</h3>
+            <div class="btn Gaming" onclick="showContent('Gaming')">
+                <!--category name, so div in here start-->
+                <h3>Gaming</h3>
+            </div> <!--and in here end-->
+            <div class="btn Painting" onclick="showContent('painting')">
+                <h3>Painting</h3>
             </div>
-            <div class="btn research" onclick="showContent('research')">
-                <h3>Thinker Mall</h3>
+            <div class="btn Reading" onclick="showContent('reading')">
+                <h3>Reading</h3>
             </div>
-            <div class="btn inschool" onclick="showContent('inschool')">
-                <h3>Havoc Unleashed</h3>
+            <div class="btn Photography" onclick="showContent('photography')">
+                <h3>Photography</h3>
             </div>
             
         </div>
         <div class="right_container">
-            <div class="right_present_professional content">
+             <!--content on right side part 1-->
+            <div class="right_present_Gaming content">
                 <div class="card">
-                    <h1>XXX company - XXX Assistant</h1>
+                    <h1>Nintendo Switch</h1>
+                    <h2>SW-5905-8513-9887</h2>
+                    <p>The Legend of Zelda: Tears of the Kingdom<br>
+                        Animal Crossing: New Horizons<br>
+                        Super Mario Odyssey
+                    </p> 
+                </div>
+            </div>
+             <!--content on right side part 2-->
+            <div class="right_present_painting content">
+                <div class="card">
+                    <h1>ipad painting </h1>
                     <h2>Beijing July 202X - December 202X</h2>
                     <p>As a capybara, I can eat, sleep, and play. I can also do some coding, but not much.
                     </p>
-                </div>
-                <hr /> 
+                </div>   
+            </div>
+             <!--content on right side part 3-->
+            <div class="right_present_reading content">
                 <div class="card">
-                    <h1>XXX company - XXX Assistant</h1>
+                    <h1>favorite book</h1>
                     <h2>Beijing July 202X - December 202X</h2>
                     <p>As a capybara, I can eat, sleep, and play. I can also do some coding, but not much.
                     </p>
                 </div>
             </div>
-            <div class="right_present_research content">
-                <div class="card">
-                    <h1>XXX company - XXX Assistant</h1>
-                    <h2>Beijing July 202X - December 202X</h2>
-                    <p>As a capybara, I can eat, sleep, and play. I can also do some coding, but not much.
-                    </p>
-                </div>
-            </div>
-            <div class="right_present_inschool content">
-                <div class="card">
-                    <h1>XXX company - XXX Assistant</h1>
-                    <h2>Beijing July 202X - December 202X</h2>
-                    <p>As a capybara, I can eat, sleep, and play. I can also do some coding, but not much.
-                    </p>
-                </div>
+             <!--content on right side part 4-->
+            <div class="right_present_photography content">
+                    <div class="card">
+                        <h1>Cooking</h1>
+                        <h2>Beijing July 202X - December 202X</h2>
+                        <p>As a capybara, I can eat, sleep,
+                            The Legend of Zelda: Tears of the Kingdom<br>
+                            Animal Crossing: New Horizons<br>
+                            The Legend of Zelda: Tears of the Kingdom<br>
+                            Animal Crossing: New Horizons<br>
+                            Super Mario Odyssey and play.
+                        </p>
+                    </div>
         </div>
+    
+    
+    <!-- Return to the main page -->
         <div class="return">
             <div class="btn ds_to_home">
                 <a href="../../index.html">
@@ -61,8 +81,8 @@
             </div>
         </div>
         <script>
-            // Initialize with 'Professional' content displayed
-            showContent('professional');
+            // Initialize with 'Gaming' content displayed
+            showContent('Gaming');
         </script>
     </body>
 </html>
