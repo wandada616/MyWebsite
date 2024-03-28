@@ -62,7 +62,7 @@ body{
 .right_present_Gaming,
 .right_present_painting,
 .right_present_reading,
-.right_present_photography {
+.right_present_Cooking {
     position: absolute;
     top: 30px;
     left: 50px;
@@ -78,7 +78,7 @@ body{
 .right_present_Gaming.active,
 .right_present_painting.active,
 .right_present_reading.active,
-.right_present_photography.active {
+.right_present_Cooking.active {
     display: block;
 }
 
